@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		31DEF3982B73BB8200AE084B /* todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3972B73BB8200AE084B /* todoApp.swift */; };
-		31DEF39A2B73BB8200AE084B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3992B73BB8200AE084B /* ContentView.swift */; };
 		31DEF39C2B73BB8300AE084B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DEF39B2B73BB8300AE084B /* Assets.xcassets */; };
 		31DEF39F2B73BB8300AE084B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DEF39E2B73BB8300AE084B /* Preview Assets.xcassets */; };
 		31DEF3A92B73BB8300AE084B /* todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3A82B73BB8300AE084B /* todoTests.swift */; };
 		31DEF3B32B73BB8300AE084B /* todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3B22B73BB8300AE084B /* todoUITests.swift */; };
 		31DEF3B52B73BB8300AE084B /* todoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3B42B73BB8300AE084B /* todoUITestsLaunchTests.swift */; };
 		31DEF3C42B73BD1E00AE084B /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3C32B73BD1E00AE084B /* TodoItem.swift */; };
+		31DEF3C82B73D99A00AE084B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3C72B73D99A00AE084B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		31DEF3942B73BB8200AE084B /* todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DEF3972B73BB8200AE084B /* todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoApp.swift; sourceTree = "<group>"; };
-		31DEF3992B73BB8200AE084B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31DEF39B2B73BB8300AE084B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31DEF39E2B73BB8300AE084B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31DEF3A42B73BB8300AE084B /* todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		31DEF3B22B73BB8300AE084B /* todoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITests.swift; sourceTree = "<group>"; };
 		31DEF3B42B73BB8300AE084B /* todoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		31DEF3C32B73BD1E00AE084B /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		31DEF3C72B73D99A00AE084B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 		31DEF3C12B73BCD900AE084B /* view */ = {
 			isa = PBXGroup;
 			children = (
-				31DEF3992B73BB8200AE084B /* ContentView.swift */,
+				31DEF3C72B73D99A00AE084B /* ContentView.swift */,
 				31DEF3972B73BB8200AE084B /* todoApp.swift */,
 			);
 			path = view;
@@ -276,9 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31DEF39A2B73BB8200AE084B /* ContentView.swift in Sources */,
 				31DEF3C42B73BD1E00AE084B /* TodoItem.swift in Sources */,
 				31DEF3982B73BB8200AE084B /* todoApp.swift in Sources */,
+				31DEF3C82B73D99A00AE084B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,12 +36,12 @@ struct ContentView: View {
                         // Button docs: https://developer.apple.com/documentation/swiftui/button
                         Button(action: addNewItem) {
                             Image(systemName: "plus.circle.fill")
-                                .foregroundColor(.green)
+                                .foregroundColor(.orange)
                         }
                     }
                 }
                 
-                Section {
+                Section(header: Text("My Tasks")) {
                     
                     // ForEach docs: https://developer.apple.com/documentation/swiftui/foreach
                     ForEach(items) { item in
@@ -52,7 +52,7 @@ struct ContentView: View {
                 }
             }
             // navigationTitle docs: https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-43srq
-            .navigationTitle("To-Do List")
+            .navigationTitle("TaskTango")
             
             // toolbar docs: https://developer.apple.com/documentation/swiftui/view/toolbar(content:)-7vdkx
             .toolbar {
