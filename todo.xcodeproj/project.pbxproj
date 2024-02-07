@@ -14,6 +14,7 @@
 		31DEF3A92B73BB8300AE084B /* todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3A82B73BB8300AE084B /* todoTests.swift */; };
 		31DEF3B32B73BB8300AE084B /* todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3B22B73BB8300AE084B /* todoUITests.swift */; };
 		31DEF3B52B73BB8300AE084B /* todoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3B42B73BB8300AE084B /* todoUITestsLaunchTests.swift */; };
+		31DEF3C42B73BD1E00AE084B /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DEF3C32B73BD1E00AE084B /* TodoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		31DEF3AE2B73BB8300AE084B /* todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DEF3B22B73BB8300AE084B /* todoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITests.swift; sourceTree = "<group>"; };
 		31DEF3B42B73BB8300AE084B /* todoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31DEF3C32B73BD1E00AE084B /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		31DEF3962B73BB8200AE084B /* todo */ = {
 			isa = PBXGroup;
 			children = (
-				31DEF3972B73BB8200AE084B /* todoApp.swift */,
-				31DEF3992B73BB8200AE084B /* ContentView.swift */,
+				31DEF3C22B73BCF700AE084B /* model */,
+				31DEF3C12B73BCD900AE084B /* view */,
 				31DEF39B2B73BB8300AE084B /* Assets.xcassets */,
 				31DEF39D2B73BB8300AE084B /* Preview Content */,
 			);
@@ -125,6 +127,23 @@
 				31DEF3B42B73BB8300AE084B /* todoUITestsLaunchTests.swift */,
 			);
 			path = todoUITests;
+			sourceTree = "<group>";
+		};
+		31DEF3C12B73BCD900AE084B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				31DEF3992B73BB8200AE084B /* ContentView.swift */,
+				31DEF3972B73BB8200AE084B /* todoApp.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		31DEF3C22B73BCF700AE084B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				31DEF3C32B73BD1E00AE084B /* TodoItem.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31DEF39A2B73BB8200AE084B /* ContentView.swift in Sources */,
+				31DEF3C42B73BD1E00AE084B /* TodoItem.swift in Sources */,
 				31DEF3982B73BB8200AE084B /* todoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
